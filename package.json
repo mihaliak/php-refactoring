@@ -1,7 +1,7 @@
 {
   "name": "php-refactoring",
   "main": "./lib/php-refactoring",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PHP Refactoring Browser implementation for atom.",
   "keywords": [
     "php",
