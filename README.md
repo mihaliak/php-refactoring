@@ -7,6 +7,7 @@ PHP Refactoring Browser implementation for atom.
 ### Requirements
 * PHP
 * `patch` command on your system
+* `refactor.phar` download [here](https://github.com/QafooLabs/php-refactoring-browser)
 
 Just search `php refactoring` in Settings > Install. If you are Windows user you have to install [Git Bash](https://git-scm.com/) first because this plugins require `patch` command in your system to change code.
 
