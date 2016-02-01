@@ -1,6 +1,8 @@
 # PHP Refactoring for Atom
 PHP Refactoring Browser implementation for atom.
 
+![Screenshot](/screenshot.gif "Screenshot")
+
 ## Installation
 ### Requirements
 * PHP
