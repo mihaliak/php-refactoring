@@ -1,0 +1,9 @@
+'body':
+    'ctrl-alt-r e': 'php-refactoring:extract',
+    'ctrl-alt-r r': 'php-refactoring:rename-variable',
+    'ctrl-alt-r c': 'php-refactoring:convert-variable',
+    'ctrl-alt-r o': 'php-refactoring:optimize'
+
+'.php-refactor':
+    'escape': 'core:cancel',
+    'ctrl-w': 'core:cancel'

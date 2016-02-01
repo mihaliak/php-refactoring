@@ -1,0 +1,51 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'PHP Refactoring'
+      'submenu': [
+        {
+            'label': 'Extract method',
+            'command': 'php-refactoring:extract'
+        },
+        {
+            'label': 'Rename variable',
+            'command': 'php-refactoring:rename-variable'
+        },
+        {
+            'label': 'Convert local variable to instance variable',
+            'command': 'php-refactoring:convert-variable'
+        },
+        {
+            'label': 'Optimize use statements',
+            'command': 'php-refactoring:optimize'
+        }
+      ]
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'PHP Refactoring'
+      'submenu': [
+        {
+            'label': 'Extract method',
+            'command': 'php-refactoring:extract'
+        },
+        {
+            'label': 'Rename variable',
+            'command': 'php-refactoring:rename-variable'
+        },
+        {
+            'label': 'Convert local variable to instance variable',
+            'command': 'php-refactoring:convert-variable'
+        },
+        {
+            'label': 'Optimize use statements',
+            'command': 'php-refactoring:optimize'
+        }
+      ]
+    ]
+  }
+]
