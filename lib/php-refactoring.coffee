@@ -80,7 +80,7 @@ module.exports = PhpRefactoring =
     renameVariable: ->
         path = @editor.getPath()
         row = @editor.getSelectedBufferRange().start.row + 1
-        variable = @editor.getSelectedText()
+        variable = @editor.getSelectedText().replace /\$/g, ''
         name = @refactorPanel.inputObject.getText()
 
         @runCommand ['rename-local-variable', path, row, variable, name]
@@ -88,7 +88,7 @@ module.exports = PhpRefactoring =
     convertVariable: ->
         path = @editor.getPath()
         row = @editor.getSelectedBufferRange().start.row + 1
-        variable = @editor.getSelectedText()
+        variable = @editor.getSelectedText().replace /\$/g, ''
 
         @runCommand ['convert-local-to-instance-variable', path, row, variable]
 
@@ -99,7 +99,7 @@ module.exports = PhpRefactoring =
 
     runCommand: (args) ->
         @editor.save()
-        
+
         command = ['cd "' + Path.dirname(args[1]) + '" && ']
 
         args[1] = '"' + args[1] + '"'
