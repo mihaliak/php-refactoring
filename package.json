@@ -1,31 +1,31 @@
 {
-    "name": "php-refactoring",
-    "main": "./lib/php-refactoring",
-    "version": "0.1.0",
-    "description": "PHP Refactoring Browser implementation for atom.",
-    "keywords": [
-        "php",
-        "refactoring",
-        "extract",
-        "method",
-        "convert",
-        "optimize",
-        "variable"
-    ],
-    "activationCommands": {
-        "atom-text-editor": [
-            "php-refactoring:extract",
-            "php-refactoring:rename-variable",
-            "php-refactoring:convert-variable",
-            "php-refactoring:optimize"
-        ]
-    },
-    "repository": "https://github.com/mihaliak/php-refactoring",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {
-        "atom-space-pen-views": "^2.0.0"
-    }
+  "name": "php-refactoring",
+  "main": "./lib/php-refactoring",
+  "version": "0.2.0",
+  "description": "PHP Refactoring Browser implementation for atom.",
+  "keywords": [
+    "php",
+    "refactoring",
+    "extract",
+    "method",
+    "convert",
+    "optimize",
+    "variable"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "php-refactoring:extract",
+      "php-refactoring:rename-variable",
+      "php-refactoring:convert-variable",
+      "php-refactoring:optimize"
+    ]
+  },
+  "repository": "https://github.com/mihaliak/php-refactoring",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0"
+  }
 }
