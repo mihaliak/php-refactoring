@@ -1,3 +1,5 @@
+# This package is not maintained anymore, sorry
+
 # PHP Refactoring for Atom
 PHP Refactoring Browser implementation for atom.
 
