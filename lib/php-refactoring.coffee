@@ -29,7 +29,7 @@ module.exports = PhpRefactoring =
             description: 'Show refactoring notifications'
     refactorPanel: new RefactorView
     handler: null
-    editor: atom.workspace.getActivePaneItem()
+    editor: atom.workspace.getActiveTextEditor()
 
     activate: (state) ->
         atom.config.observe 'php-refactoring.phpExecutablePath', =>
